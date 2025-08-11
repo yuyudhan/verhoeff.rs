@@ -1,0 +1,24 @@
+# FilePath: Cargo.toml
+
+[package]
+name = "verhoeff"
+version = "0.1.0"
+edition = "2021"
+authors = ["Ankur Pandey <@yuyudhan>"]
+description = "A Rust implementation of the Verhoeff checksum algorithm for error detection"
+repository = "https://github.com/yuyudhan/verhoeff.rs"
+license = "MIT"
+keywords = ["verhoeff", "checksum", "aadhaar", "validation", "error-detection"]
+categories = ["algorithms", "no-std"]
+readme = "README.md"
+
+[dependencies]
+
+[dev-dependencies]
+
+[lib]
+name = "verhoeff"
+path = "src/lib.rs"
+
+[features]
+default = []
